@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Simple loading spinner */
+  .spinner {
+    @apply w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin;
+  }
+}
